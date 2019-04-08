@@ -49,7 +49,7 @@ PubSubClient client(espClient);
 #define in_topic "Glacierjay" // use this to accept commands
 #define button_topic "Glacierjay/gps" // use to send state of gps
 const char* ssid     = "karenjay"; // home ssid
-const char* password = "mounthood"; // home password
+const char* password = "XXXXXX"; // home password
 const char* mqtt_server = "192.168.1.20"; // RPi 3 model b+ mexpi that runs mosquitto
 long lastMsg = 0;
 char msg[50];
